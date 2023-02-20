@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    --bg-primary: #000000;    
+    --color: #7CFC00;    
+    font-family: 'Wallpoet', cursive;
+    font-size: 98pt;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--color);
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+h2 {
+    margin-top: 80%;
+}
